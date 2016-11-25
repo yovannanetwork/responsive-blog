@@ -1,5 +1,18 @@
 /* Inserta tu codigo aqui */
 
+*{
+    outline: 1px solid black;
+    background: #2d2735;
+}
+
+
+
+
+
+
+
+
+
 /* Responsive */
 
 @media screen and (max-width : 920px) {
