@@ -1,15 +1,175 @@
 /* Inserta tu codigo aqui */
 
 *{
-    outline: 1px solid black;
+    
     background: #2d2735;
+}
+body{
+    color: white;
+}
+.container{
+    margin: 0 200px;
+}
+h1, h5{
+    font-family: Bradley Hand ITC;
+    color: #f7ba6a;
+    text-align: center;
+}
+
+
+/*----header*/
+
+header .col-7{
+    width: 40%;
+    
+}
+header .col-5{
+    width: 60%;
+    float: right;
+}
+header .col-7, header .col-5{
+    display: inline-block;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 15px;
+}
+header img{
+    width: 50%;
+}
+/*----section hero---*/
+.spring{
+    
+    background-image: url(../image/header-image.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    
+}
+.hero .caja{
+    width: 40%;
+    position: absolute;
+    background: #1c1821;
+    margin: 120px 200px;
+}
+.caja h1{
+    margin: 0;
+    padding: 40px 30px 5px 30px;
+    font-size: 60px;
+}
+
+.caja, h1{
+    background: #1c1821;
+}
+.caja{
+    text-align: center;
+    position: relative;
+    padding-bottom: 30px;
 }
 
 
 
+/*------section flores-------*/
+.flores{
+    margin: 30px 0;
+}
+.flores .col-4{
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 0px 30px 0;
+    background: #1c1821;
+}
+.flores .col-4 img{
+    width: 100%;
+}
+
+.flores .caja2, h5, span{
+    background: #1c1821;
+    margin: 0;
+}
+.flores .caja2 h5{
+    font-size: 18px;
+    padding: 10px
+}
+.flores .caja2 span{
+    box-sizing: border-box;
+    position: relative;
+    left: 45px;
+}
 
 
 
+/*----section -flanetss-y-video-------*/
+
+.new-flatness .col-4{
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
+}
+.new-flatness .col-8{
+    width: 60%;
+    background: #1c1821;
+}
+.new-flatness .col-4{
+    width: 40%;
+    float: right;
+}
+.new-flatness .col-8, .new-flatness .col-4{
+    display: inline-block;  
+}
+.new-flatness p{
+    box-sizing: border-box;
+    padding: 0 10px;
+    background: #1c1821;
+}
+
+.new-flatness .col-8 img{
+    width: 100%;
+}
+
+.new-flatness .about-me img{
+    width: 100%;
+}
+.new-flatness h5{
+    font-size: 18px;
+    padding: 10px;
+}
+.new-flatness span{
+    box-sizing: border-box;
+    margin: 0 150px;
+}
+.new-flatness .col-4 p{
+    border: 1px solid #1c1821;
+    background-color: #1c1821;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 0 10px 0;
+}
+
+.new-flatness .col-4 input{
+    width: 100%;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid #2d2735;
+}
+
+.about-me, h5, h4{
+    background-color: #1c1821;
+}
+.about-me h5{
+    margin: 0;
+}
+.about-me h4{
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
 
 
 
