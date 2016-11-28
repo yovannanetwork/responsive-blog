@@ -2,183 +2,185 @@
 
 *{
     
-    background: #2d2735;
 }
 body{
-    color: white;
+    background: #2d2735;
+    margin: 0;
+    padding: 0;
 }
 .container{
-    margin: 0 200px;
+    width: 700px;
+    margin: 0 auto;;
+    box-sizing: border-box;
 }
-h1, h5{
-    font-family: Bradley Hand ITC;
-    color: #f7ba6a;
-    text-align: center;
+h1,h3{
+    font-family: Lucida Calligraphy;
+    color: #f7b96a;
 }
-
-
-/*----header*/
-
-header .col-7{
-    width: 40%;
-    
-}
-header .col-5{
-    width: 60%;
-    float: right;
-}
-header .col-7, header .col-5{
-    display: inline-block;
-}
-header ul li{
-    list-style: none;
-    display: inline-block;
-}
-header ul li a{
-    text-decoration: none;
+p{
     color: white;
-    padding: 0 10px;
-    font-size: 15px;
+}
+
+/* Header */
+header{
+    background: #1a1720;
+    display:flex;
+}
+header .logo{
+    width: 30%;
 }
 header img{
-    width: 50%;
+    width: 200px;
 }
-/*----section hero---*/
-.spring{
-    
-    background-image: url(../image/header-image.jpg);
-    width: 100%;
-    height: 400px;
-    background-size: cover;
-    
-}
-.hero .caja{
-    width: 40%;
-    position: absolute;
-    background: #1c1821;
-    margin: 120px 200px;
-}
-.caja h1{
+.menu{
+    float: right;
+    width: 68%;
     margin: 0;
-    padding: 40px 30px 5px 30px;
-    font-size: 60px;
 }
-
-.caja, h1{
-    background: #1c1821;
-}
-.caja{
-    text-align: center;
-    position: relative;
-    padding-bottom: 30px;
-}
-
-
-
-/*------section flores-------*/
-.flores{
-    margin: 30px 0;
-}
-.flores .col-4{
-    width: 33%;
+.logo, .menu{
     display: inline-block;
-    box-sizing: border-box;
-    padding: 0 0px 30px 0;
-    background: #1c1821;
 }
-.flores .col-4 img{
+nav{
+   box-sizing: border-box;
+    margin: 20px 0;
+}
+nav a{
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* Hero */
+.contenido{
+    background-image: url(../image/header-image.jpg);
+    height: 300px;
+    background-size: cover;
+    color: white;
+}
+.texto{
+    box-sizing: border-box;
+    display: table-cell;
+    position: relative;
+    top: 90px;
+    left: 150px;
+    width: 400px;
+    height: 100px;
+    background: #1a1720;
+}
+.texto h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.texto p{
+    text-align: center;
+    box-sizing: border-box;
+}
+/* Flores */
+.foto1{
+    width: 33%;
+    margin: auto;
+    float: left;
+    margin: 25px 0;
+    text-align: center;
+}
+.foto1 img, .descripcion{ 
+    width: 220px;
+    
+}
+.foto1 .descripcion{
+    margin-left: 7px;
+    background: #1a1720;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/* Video */
+.clearfix:after {
+    content: " ";
+    clear: both;
+}
+.section-video{
+    width: 420px;
+    text-align: center;
+    display: inline-block;
+    background: #1a1720;
+}
+.section-video img{
     width: 100%;
 }
-
-.flores .caja2, h5, span{
-    background: #1c1821;
-    margin: 0;
+.section-video p{
+    text-align: left;
 }
-.flores .caja2 h5{
-    font-size: 18px;
-    padding: 10px
+.section-video small{
+    margin-left: 100px;
 }
-.flores .caja2 span{
-    box-sizing: border-box;
-    position: relative;
-    left: 45px;
+.section-video iframe{
+    width: 100%;
 }
-
-
-
-/*----section -flanetss-y-video-------*/
-
-.new-flatness .col-4{
-    box-sizing: border-box;
-    padding: 0 0 0 20px;
-}
-.new-flatness .col-8{
-    width: 60%;
-    background: #1c1821;
-}
-.new-flatness .col-4{
-    width: 40%;
+ 
+/* iconos */
+.iconos{
+    width: 260px;
+    margin: 0 auto;
     float: right;
 }
-.new-flatness .col-8, .new-flatness .col-4{
-    display: inline-block;  
-}
-.new-flatness p{
-    box-sizing: border-box;
-    padding: 0 10px;
-    background: #1c1821;
-}
-
-.new-flatness .col-8 img{
-    width: 100%;
-}
-
-.new-flatness .about-me img{
-    width: 100%;
-}
-.new-flatness h5{
-    font-size: 18px;
-    padding: 10px;
-}
-.new-flatness span{
-    box-sizing: border-box;
-    margin: 0 150px;
-}
-.new-flatness .col-4 p{
-    border: 1px solid #1c1821;
-    background-color: #1c1821;
-    box-sizing: border-box;
+.search{
+   box-sizing: border-box;
     padding: 20px;
-    margin: 0 0 10px 0;
+    background: #1a1720;
 }
-
-.new-flatness .col-4 input{
+.search input{
     width: 100%;
-    padding: 10px 50px;
+    box-sizing: border-box;
+    background: #2d2735;
     border-radius: 5px;
-    border: 1px solid #2d2735;
+    border: 1px #2d2735;
+    padding: 5px 10px;
 }
-
-.about-me, h5, h4{
-    background-color: #1c1821;
+.about-me{
+    text-align: center;
+    margin-bottom: 20px;
+    background: #1a1720;
 }
-.about-me h5{
-    margin: 0;
+.about-me img{
+    width: 100%;
 }
 .about-me h4{
-    margin: 0;
-    padding: 5px 0;
     text-align: center;
+    color: white;
+}
+.iconos i{
+    border-radius: 50%;
+    color: #2d2735;
+    margin-left: 10px;
+}
+.about-me p{
+    text-align: left;
+    padding: 5px;
 }
 
 
 
 /* Responsive */
 
-@media screen and (max-width : 920px) {
-
+@media screen (max-width : 920px) {
+    .container{
+        width: 700px;
+    }
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen (max-width: 600px) {
+    body{
+        background: yellow;
+    }
+    
+}
+@media screen (max-width: 920px){
+    .foto1{
+        width: 100%;
+        text-align: center;
+    }
 }
